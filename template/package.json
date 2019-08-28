@@ -1,0 +1,63 @@
+{
+  "name": "template",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@jeebey/vue-request": "git+ssh://git@gitee.com:plugins4node/vue-request.git#master",
+    "@jeebey/vue-vcached": "git+ssh://git@gitee.com:plugins4node/vue-vcached.git#master",
+    "axios": "^0.18.0",
+    "core-js": "^2.6.5",
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.2",
+    "vuex": "^3.0.1",
+    "vuex-cache": "^1.4.1",
+    "vuex-persistedstate": "^2.5.4",
+    "vuex-shared-mutations": "0.0.5"
+  },
+  "devDependencies": {
+    "@jeebey/WebpackComplierVersionPlugin": "git+ssh://git@gitee.com:plugins4node/WebpackComplierVersionPlugin.git#master",
+    "@vue/cli-plugin-babel": "^3.0.3",
+    "@vue/cli-plugin-eslint": "^3.0.3",
+    "@vue/cli-service": "^3.0.3",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-config-standard": "^14.0.1",
+    "eslint-config-vue": "^2.0.2",
+    "eslint-plugin-flow-vars": "^0.5.0",
+    "eslint-plugin-html": "^6.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "eslint-plugin-vue": "^5.2.3",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
