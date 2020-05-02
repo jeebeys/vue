@@ -1,19 +1,17 @@
 <template>
     <div>
-        <button @click="test">index-{{ $store.state.count }}</button>
+        <button @click="test">index-{{ $store.state.count }}-{{msg}}</button>
     </div>
 </template>
 
 <script>
     export default {
         name: "index",
+        props: ['msg'],
         methods: {
             test: function () {
                 console.log('----', this.$cache,this.$store.cache);
                 this.$store.commit('increment')
-                this.$http.post("/wd/login", {username: 'super', password: '123456'},{'X-Requested-Head': 'json'}).then(data => {
-                    console.log('success-proxy', data);
-                })
                 this.$http.get('/api/weather/city/101030100', {}).then((data) => {
                     console.log(data)
                 })

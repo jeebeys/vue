@@ -11,8 +11,8 @@ const _createVuexShare = createVuexShare({
   sharingKey: 'share_sharing',
   storageKey: 'share_storage',
   predicate: (mutation, state) => {
-    const predicate = ['increment'];
-    return predicate.indexOf(mutation.type) >= 0;
+    const predicate = ['increment']
+    return predicate.indexOf(mutation.type) >= 0
   }
 })
 
@@ -21,7 +21,7 @@ const store = new Vuex.Store({
     count: 0
   },
   mutations: {
-    increment(state) {
+    increment (state) {
       state.count++
     }
   },
@@ -32,4 +32,4 @@ createVuexState({
   key: 'local_storage'
 })(store)
 
-export default store;
+export default store

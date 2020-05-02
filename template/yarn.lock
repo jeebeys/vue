@@ -711,19 +711,22 @@
     cssnano-preset-default "^4.0.0"
     postcss "^7.0.0"
 
-"@jeebey/WebpackComplierVersionPlugin@git+ssh://git@gitee.com:plugins4node/WebpackComplierVersionPlugin.git#master":
-  version "1.0.0"
-  resolved "git+ssh://git@gitee.com:plugins4node/WebpackComplierVersionPlugin.git#6b1aa96983b0aa33064a7022b3da7f90d135cb7c"
+"@jeebey/vue-request@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@jeebey/vue-request/-/vue-request-1.0.3.tgz#cf90b30d0d5f3526f3d8e396d137d87f55dbcfc2"
+  integrity sha512-L1/yCItrMlVs9P0PTgZ3Gp17QEFc5EV6YJ6+daELyGYBjntqhO0M6bM21yb+IuJMA7bd37pawE/pvPXAtys2Og==
+
+"@jeebey/vue-vcached@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@jeebey/vue-vcached/-/vue-vcached-1.0.1.tgz#524c08eb889e7ea818735e3a5a455b00d7a50868"
+  integrity sha512-ix0sGQm2+zvHtpTdGFqKi982KRq4hs9e7E77vN4K0zCpXfCHQNLO8Xo4wogLi2zVDa0qTRK0ILH1o1KLz6PpgA==
+
+"@jeebey/vue-version@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@jeebey/vue-version/-/vue-version-1.1.0.tgz#fb589205437bf39375dc44a3433ac246e9b3c7f1"
+  integrity sha512-VEBw0UUM8MgU6VTnTGBnLbue5EZXmTaupvkkKEAV2ZE5lhO+dEOPSQ8FzugyqySxfG0SrG1Vxw6qx8Lj+Lm4eg==
   dependencies:
     moment "^2.24.0"
-
-"@jeebey/vue-request@git+ssh://git@gitee.com:plugins4node/vue-request.git#master":
-  version "1.0.1"
-  resolved "git+ssh://git@gitee.com:plugins4node/vue-request.git#7612b5526a9b25aac22f435d2d65d67a1aaa83b7"
-
-"@jeebey/vue-vcached@git+ssh://git@gitee.com:plugins4node/vue-vcached.git#master":
-  version "1.0.0"
-  resolved "git+ssh://git@gitee.com:plugins4node/vue-vcached.git#3c8b37b3a91cb880ed73c7a866c3618404c2116b"
 
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"

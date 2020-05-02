@@ -1,4 +1,4 @@
-const WebpackComplierVersionPlugin = require('@jeebey/WebpackComplierVersionPlugin')
+const WebpackComplierVersionPlugin = require('@jeebey/vue-version')
 const path = require('path')
 const webpack = require('webpack')
 
@@ -8,24 +8,10 @@ module.exports = {
   devServer: {
     port: 3000, // 端口
     proxy: {
-      '/http': {
-        target: 'http://',
-        changeOrigin: true,
-        ws: true,
-        pathRewrite: {
-          '^/http': ''
-        }
-      },
       '/api': {
         target: 'http://t.weather.sojson.com/',
         pathRewrite: {
           '^/api': '/api'
-        }
-      },
-      '/wd': {
-        target: 'https://weedo.jeebey.com/',
-        pathRewrite: {
-          '^/wd': '/wd'
         }
       }
     }
