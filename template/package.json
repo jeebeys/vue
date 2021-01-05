@@ -10,7 +10,7 @@
   "dependencies": {
     "@jeebey/vue-request": "^1.0.3",
     "@jeebey/vue-vcached": "^1.0.1",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "core-js": "^2.6.5",
     "vue": "^2.6.10",
     "vue-router": "^3.0.2",
